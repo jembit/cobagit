@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sorosutan/repositories/cobagit/
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp -R gambar $DEPLOYPATH
