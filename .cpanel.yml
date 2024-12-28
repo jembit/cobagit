@@ -2,5 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/sorosutan/public_html/cobagit/
+    - cd $DEPLOYPATH && rm -rf gambar
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp -R gambar $DEPLOYPATH
